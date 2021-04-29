@@ -1,2 +1,2 @@
-# demo-services
-Hello World and QOTM
+# project-template
+Template repo for the Project CRD.
