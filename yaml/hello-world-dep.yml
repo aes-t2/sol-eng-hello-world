@@ -20,7 +20,7 @@ spec:
     spec:
       containers:                   # Application container
         - name: hello
-          image: docker.io/datawire/hello-world:latest
+          image: docker.io/datawire/hello:2
           ports:
             - name: http
               containerPort: 8000   # Application port
