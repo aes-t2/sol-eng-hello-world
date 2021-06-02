@@ -1,2 +1,2 @@
-# project-template
-Template repo for the Project CRD.
+# Simple Hello World service that includes Rate Limiting configuration.
+
