@@ -14,7 +14,7 @@ spec:
   template:
     metadata:
       annotations:
-        # getambassador.io/inject-traffic-agent: enabled # Enable automatic Traffic Agent sidecar injection
+        config.linkerd.io/skip-outbound-ports: "8081,8022,6001"  # Only needed for Telepresence in Linkerd mesh
       labels:
         app: hello
     spec:

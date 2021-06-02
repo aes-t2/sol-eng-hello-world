@@ -1,0 +1,12 @@
+---
+apiVersion: getambassador.io/v2
+kind: RateLimit
+metadata:
+  name: rate-limit-hello
+spec:
+  domain: ambassador
+  limits:
+   - pattern: [{generic_key: 3rph}]
+     rate: 3
+     unit: hour
+---
