@@ -9,7 +9,6 @@ metadata:
     documented: "false"    ## (note that "true" must be quoted)
 spec:
   prefix: /hello/
-  # host: aes-demo.com
   service: hello.test:80
   docs:
     docs:
